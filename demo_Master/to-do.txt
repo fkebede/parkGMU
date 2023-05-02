@@ -1,0 +1,5 @@
+- Create delete user account and data function that allows users to delete everything.
+
+- Create deleteUnverified() function that deletes all unverified accounts every 24 hours.
+
+- Figure out how to hide find-parking.html page so that only SIGNED IN + VERIFIED users can access it: https://stackoverflow.com/questions/1594206/php-prevent-users-from-accessing-a-page-while-not-logged-in
