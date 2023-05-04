@@ -133,6 +133,7 @@ function login () {
 
       //alert('User Name: ' + userName + ' ' + 'User Email: ' + userEmail);
 
+      // Save user data on local storage
       localStorage.setItem("userNameLocalStorage", userName);
       localStorage.setItem("userEmailLocalStorage", userEmail);
 

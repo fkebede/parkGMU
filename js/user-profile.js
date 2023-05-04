@@ -28,4 +28,7 @@ logoutBtn.addEventListener('click', e => {
     e.preventDefault();
     auth.signOut();
     alert("You have signed out successfully!");
-})
+
+    //Refresh the page to insure proper display
+    window.location.reload();
+});

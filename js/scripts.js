@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', event => {
 // Sign Up/ Login toggle on navbar
     document.getElementById('goToSignup').onclick = function changeContent() {
 
-        if (document.getElementById('signup').style.display === "none"){
+        if (document.getElementById('signup').style.display === "none") {
             document.getElementById('signup').style.display = "block";
             document.getElementById('signin').style.display = "none";
             document.getElementById('goToSignup').textContent = "Log In";
